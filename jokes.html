@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="hero-bg">
+    <header class="header">
+        <h1>Joke Explorer</h1>
+        <button id="getJokeBtn">Tell Me a Joke</button>
+        <div id="jokeDisplay"></div>
+    </header>
+
+    <section>
+        <form id="searchForm">
+            <input type="text" id="searchInput" placeholder="Search jokes..." required />
+            <button type="submit">Search</button>
+        </form>
+        <div id="jokeList"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
